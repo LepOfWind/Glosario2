@@ -1,0 +1,30 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lightMahogany</item>
+        <item name="colorPrimaryDark">@color/Mahogany</item>
+        <item name="colorAccent">@color/Chestnut</item>
+        <item name="android:statusBarColor">@color/newMahogany</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="DialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">#FF9F4636</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">#5e5e5e</item>
+        <!-- Used for the background -->
+        <item name="android:background">#fafafa</item>
+    </style>
+
+
+</resources>
